@@ -28,15 +28,19 @@ function projects() {
 }
 
 function cv() {
-    /*fetch(data.json)
+    fetch('data.json')
     .then(r => r.json())
     .then(data => {
         console.log(data);
     })
         
     count++;
-        changeBackground(count); */
-    content.innerHTML = `<p>I'm fetching some stuff here.</p>`
+        changeBackground(count); 
+    content.innerHTML = `        <button>Experience</button>
+        <button>Volunteering</button>
+        <button>Education</button>
+        <button>Skills</button>`
+    
 } 
 
 function about() {
@@ -70,5 +74,5 @@ background: var(--color${count});
     100% {background: linear-gradient(90deg, var(--color${count+1}) 0%, var(--color${count+2}) 100%);}
   }`
 
-  console.log(count);
+
 }

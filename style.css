@@ -60,17 +60,16 @@ h3 {
 }
 
 
-  .buttons {
-
-    margin-left: auto;
+#content {
+    width: 700px;
     margin-right: auto;
-    width: fit-content;
-
-  }
+    margin-left: auto;
+}
   button {
     padding: 10px;
     background-color: azure;
     border: gray;
+    
   }
   #about-me  {
     width: 700px;
