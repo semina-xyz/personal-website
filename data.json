@@ -1,0 +1,53 @@
+{
+    "experience": [
+      {
+        "title": "IT Intern",
+        "company": "Fondacija Mozaik",
+        "dates": "April 2023 – July 2023",
+        "description": "Assisted with Tier 1 technical support, handling tasks such as Windows OS installation, laptop refurbishment, and troubleshooting basic issues. Trained new interns in Office 365, developed SOP manuals to streamline IT processes, and contributed to Salesforce integration and telephone line setup to enhance business operations."
+      },
+      {
+        "title": "LTO Assistant",
+        "company": "OSCE",
+        "dates": "September 2022 – October 2022",
+        "description": "Conducted interviews with different interlocutors and interpreted them during the Election Observation Mission. Assisted with research and compiling a report on election activities in Sarajevo Kanton and Bosansko-podrinjski Kanton."
+      },
+      {
+        "title": "Academic Research Assistant",
+        "company": "Collaborated with Dr. Matthew Simonson",
+        "dates": "October 2018 – July 2020",
+        "description": "Collaborated on research examining social networks in conflict periods, providing translation, transcription, and simultaneous interpretation for interviews in Bosnian/Serbian/Croatian-English. Supported data collection, managed legal documentation, facilitated communication with public officials, and offered cultural insights to enhance the research’s depth and relevance."
+      },
+      {
+        "title": "Customer Support Agent",
+        "company": "DDC doo",
+        "dates": "March 2019 – April 2020",
+        "description": "Provided customer support for an energy company, assisting clients with billing inquiries, account management, and service-related issues."
+      }
+    ],
+    "volunteering": [
+      {
+        "title": "Volunteer",
+        "organization": "FabLab Sarajevo",
+        "dates": "May 2021 – September 2021",
+        "description": "Created an SOP for 3D printer usage and assisted in translating the monthly newsletter."
+      },
+      {
+        "title": "Volunteer",
+        "organization": "Udruženje 'Centar za razvoj medija i analize'",
+        "dates": "March 2022 – June 2022",
+        "description": "Gained familiarity with state procurement processes, tracked compliance using the organization's systems, and worked effectively in a remote environment."
+      }
+    ],
+    "education": {
+      "degree": "BSc in Software Engineering",
+      "institution": "Fakultet Informacijskih Tehnologija – Univerzitet 'Džemal Ćelic' in Mostar"
+    },
+    "skills": [
+      "SQL",
+      "Web Development (JavaScript, HTML, CSS)",
+      "Technical support and IT troubleshooting (Windows OS installation, Office 365 training, SOP development)",
+      "Research and data analysis"
+    ]
+  }
+  

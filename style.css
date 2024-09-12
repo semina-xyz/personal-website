@@ -1,0 +1,113 @@
+:root {
+    --color1:#FFB3BA;
+    --color2: #FFDFBA;
+    --color3: #FFFFBA;
+    --color4: #BAFFC9;
+    --color5: #BAE1FF;
+    --color6: #E3BAFF;
+
+}
+*{
+    color: gray;
+    box-sizing: border-box;
+
+}
+
+body {
+animation-name: background;
+animation-duration: 4s;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+background: var(--color1);
+background: linear-gradient(90deg, var(--color2) 0%, var(--color3) 60%);
+}
+nav {
+    height: 100%;
+    width: 10%;
+
+}
+a{
+    text-decoration: none;
+
+}
+ul {
+  display: flex;
+  flex-direction: column;
+    gap: 20px;
+}
+li{
+    list-style-type: none;
+    font-size: 1.5em;
+    
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+main h2, h1
+{
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+#profile-pic {
+    width: 200px;
+}
+
+h3 {
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+}
+
+@keyframes background {
+    0% {background: linear-gradient(90deg, var(--color2) 0%, var(--color3) 0%);}
+    50% {background: linear-gradient(90deg, var(--color2) 0%, var(--color3) 50%);}
+    100% {background: linear-gradient(90deg, var(--color2) 0%, var(--color3) 100%);}
+  }
+
+  .buttons {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+  }
+  button {
+    padding: 10px;
+    background-color: azure;
+    border: gray;
+  }
+  #about-me  {
+    width: 700px;
+    border: 3px double gray;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  #about-me h3 {
+    width: 100%;
+    border-bottom: 3px double gray;
+    text-align: center;
+  }
+  img {
+    width: 200px;
+    display: inline-block;
+    padding: 5px;
+  }
+  #bio {
+    float: left;
+    width: 400px;
+
+  }
+  #bio-flex {
+    display: flex;
+    flex-direction: row;
+  }
