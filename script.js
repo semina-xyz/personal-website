@@ -41,7 +41,7 @@ function cv() {
         <button>Education</button>
         <button>Skills</button>
         <div id="stuff"></div>
-        <button> <a href="cv.pdf" class="download-btn" download="files/cv.pdf">Download Resume</a>
+        <button> <a href="cv.pdf" class="download-btn" download="cv.pdf">Download Resume</a>
 </body></button>`
 
         
