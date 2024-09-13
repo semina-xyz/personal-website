@@ -28,11 +28,11 @@ function projects() {
 }
 
 function cv() {
-    fetch('data.json')
+   /* fetch('data.json')
     .then(r => r.json())
     .then(data => {
         console.log(data);
-    })
+    })*/
         
     count++;
         changeBackground(count); 
