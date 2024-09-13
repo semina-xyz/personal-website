@@ -39,10 +39,7 @@ function cv() {
     content.innerHTML = `        <button>Experience</button>
         <button>Volunteering</button>
         <button>Education</button>
-        <button>Skills</button>
-        <div id="stuff"></div>
-        <button> <a href="cv.pdf" class="download-btn" download="cv.pdf">Download Resume</a>
-</body></button>`
+        <button>Skills</button>`
 
         
     
