@@ -99,7 +99,7 @@ h3 {
     flex-direction: row;
   }
 
-  .social-links {
+.social-links {
     margin-top: 5px;
 }
 
@@ -112,5 +112,5 @@ h3 {
 }
 
 .social-links img:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
+    transform: scale(1.1); 
 }
